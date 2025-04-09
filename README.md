@@ -69,18 +69,3 @@ Why User is Needed:
 
 ---
 
-npm install nodemailer
-1. While user register for event, will get successful confirmation email.
-   Map: utils/emailSender.js ->.env -> middleware/userVerify.js -> controllers/event.js -> routes/event.js
-
-set email pass:-
-> Go to Google Account Security Settings.
-> Enable 2-Step Verification (if not already enabled).
-> Type in search-box: App Password
-> create Project name: Virtual-Event
-> Then we get password, & use it in vsCode.
-
-2. While user cancel for event, will get successful confirmation email.
-   Map: utils/emailSender.js ->.env ->controllers/event.js
-
----
