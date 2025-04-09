@@ -14,7 +14,7 @@ Map: models, controllers, routes, app.js
 git init
 git add .
 git commit -m "Done"
-git remote add origin https://github.com/SandeepLS/Virtual-Event-Management.git
+git remote add origin (https://github.com/sandeepanchakraborty/-Backend-System-for-a-Virtual-Event-Management-Platform.git)
 git branch -M main
 git push -u origin main
 
